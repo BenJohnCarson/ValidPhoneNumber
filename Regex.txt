@@ -1,3 +1,5 @@
 /(\W{1}\d{3}\W{1}\s)(\d{3}\W)(\d{4})/ = original
 
 /(\W{1}\d{3}\W{1}\s)(\d{3}\S{1})(\d{4})/ = modified
+
+/\W{1}\d{3}\W{1}\s\d{3}\S{1}\d{4}/ = refactored
